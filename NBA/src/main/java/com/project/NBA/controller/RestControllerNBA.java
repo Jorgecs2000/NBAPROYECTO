@@ -51,7 +51,7 @@ public class RestControllerNBA {
 
 	
 
-	@PostMapping(path = "/login")
+	@PostMapping(path = "/login") //Hola que tal
     public ResponseEntity<String> login(
             @Valid @RequestBody User usuario,
             BindingResult bindingResult) {
